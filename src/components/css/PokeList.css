@@ -1,0 +1,4 @@
+.PokeList {
+   display: flex;
+   flex-wrap: wrap;
+}

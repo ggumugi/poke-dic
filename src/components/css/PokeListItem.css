@@ -1,0 +1,58 @@
+.item {
+   margin: 20px;
+   padding: 10px;
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+}
+.item img {
+   margin: 0;
+   align-items: center;
+}
+.item .pic {
+   filter: grayscale(100%);
+}
+.item .on {
+   filter: grayscale(0) !important;
+}
+.item p {
+   margin: 5px 0;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.664);
+   width: 100%;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   border-radius: 15px;
+}
+.item .evolve {
+   margin: 3px 0;
+   text-align: center;
+   background-color: rgba(69, 72, 248, 0.664);
+   border-color: rgba(123, 69, 248, 0.664);
+   width: 70%;
+   color: white;
+   border-radius: 15px;
+   font-size: 0.7rem;
+}
+.item .out {
+   margin: 3px 0;
+   text-align: center;
+   background-color: rgba(248, 69, 69, 0.664);
+   border-color: rgba(248, 69, 69, 0.664);
+   width: 70%;
+   color: white;
+   border-radius: 15px;
+   font-size: 0.7rem;
+   margin-left: auto;
+}
+
+.item:hover {
+   transform: translateY(-10px);
+   transition-duration: 1s;
+}
+
+.item button:disabled {
+   background-color: rgba(128, 128, 128, 0.596);
+   color: rgba(255, 255, 255, 0.795);
+   border-color: rgba(189, 189, 189, 0.603);
+}
